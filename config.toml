@@ -1,22 +1,26 @@
 baseurl = "/"
-title = "test"
+title = "さんぷる"
 languageCode = "ja-jp"
-paginate = "10" # Number of posts per page
+defaultContentLanguage = "ja"
+paginate = "10" # 1ページあたりの記事の数
 theme = "Mainroad"
-disqusShortname = "" # Enable comments by entering your Disqus shortname
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+enableInlineShortcodes = true
+hasCJKLanguage = true
+disqusShortname = ""
+googleAnalytics = ""
+
 
 [Author]
-  name = "John Doe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-  avatar = "img/avatar.png"
+  name = "ほげ太郎"
+  bio = "ゴールデンハムスターです!"
+  avatar = "icon.png"
 
 [Params]
-  subtitle = "Just another site" # Subtitle of your site
-  description = "John Doe's Personal blog about everything" # Description of your site
+  subtitle = "副題"
+  description = "サイトの説明" # Description of your site
   opengraph = true
   twitter_cards = false
-  readmore = false # Show "Read more" button in list if true
+  readmore = true
   authorbox = true
   post_navigation = true
   post_meta = ["date", "categories"] # Order of post meta information
